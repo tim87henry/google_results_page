@@ -1,0 +1,53 @@
+.header {
+    height: 120px;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+}
+
+.head-left {
+    display: flex;
+    float: left;
+}
+
+.head-right {
+    display: flex;
+    float: right;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 30px;
+    padding: 20px;
+}
+
+.gsearch {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 700px;
+    height: 45px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    background: white;
+}
+
+.user {
+    background: rgb(244, 81, 30);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head-right a {
+    text-decoration: none;
+}
