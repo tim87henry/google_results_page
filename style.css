@@ -34,7 +34,8 @@
     border-color: lightgray;
     background: white;
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gsearch:hover {
@@ -100,8 +101,8 @@
 .glinks-section {
     position: absolute;
     margin-top: 90px;
-    margin-left: 190px;
-    width: 650px;
+    margin-left: 170px;
+    width: 680px;
     height: 200px;
 }
 
@@ -115,15 +116,14 @@
 .glink {
     display: flex;
     justify-content: center;
-    margin-right: 25px;
+    padding-right: 12px;
+    padding-left: 12px;
     text-align: center;
 }
 
 #curr {
     border-bottom: solid royalblue 3px;
     color: royalblue;
-    padding-left: 10px;
-    padding-right: 10px;
     height: 27px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -137,6 +137,11 @@
 .glinks-right {
     float: right;
     display: flex;
+}
+
+#gsrc {
+    margin-right: 4px;
+    font-size: 18px;
 }
 
 .main {
@@ -164,8 +169,8 @@
 
 .result-heading {
     margin-top: 9px;
-    font-size: 19px;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .result-heading a {
@@ -202,6 +207,7 @@
 .snip-footer {
     margin-left: 400px;
     margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .snip-footer a {
@@ -220,7 +226,7 @@
     border: solid 1px lightgray;
     width: 650px;
     margin-top: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .peopleask tr {
@@ -270,7 +276,7 @@
 
 .relatedlist {
     margin-top: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .relatedlist p {
@@ -282,10 +288,11 @@
     margin-bottom: 35px;
     width: 700px;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .relatedlinks td {
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 .relatedlinks a {
@@ -351,7 +358,7 @@
 }
 
 .footer a:hover {
-    font-weight: bold;
+    color: black;
 }
 
 .foot-top {
